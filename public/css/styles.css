@@ -1,0 +1,320 @@
+/********************** Default Basic CSS **********************/
+
+body {
+  color: #3f72af;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #112d4e;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #112d4e;
+  font-size: 3.5rem;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #112d4e;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: groove 1px;
+  border-color: #112d4e;
+  border-bottom: none;
+  border-width: thin;
+  margin: auto;
+}
+
+.top-div {
+  padding-top: 100px;
+  background-color: #dbe2ef;
+}
+
+.middle-div {
+  max-width: 600px;
+  display: inline-block;
+  margin-top: 0;
+  width: 400px;
+  height: 700px;
+  text-align: left;
+}
+
+.bottom-div {
+  padding-top: 10px;
+  background-color: #dbe2ef;
+}
+
+.Main-Links {
+  color: #112d4e;
+  font-size: 1.2rem;
+  margin: 5%;
+  text-decoration: none;
+  padding-bottom: 3px;
+}
+
+.ToDo-Link {
+  color: #112d4e;
+  font-size: 1.2rem;
+  text-decoration: none;
+  align-self: center;
+  margin: 15%;
+  padding-bottom: 3px;
+}
+
+.Main-Links:hover {
+  color: #3f72af;
+}
+
+.ToDo-Link:hover {
+  color: #3f72af;
+}
+
+.top-hr {
+  margin-bottom: 30px;
+  margin-top: 25px;
+  background-color: #112d4e;
+}
+
+.title_style {
+  text-decoration: underline;
+}
+
+.lists {
+  align-items: left;
+}
+
+#h1-helper {
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+
+
+
+/********************** My Index Page CSS **********************/
+.timer {
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 300;
+  align-content: center;
+}
+
+.box {
+  box-shadow: 5px 5px 15px -5px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.container {
+  display: inline-block;
+}
+.carousel {
+  margin-top: 30px;
+  display: inline-block;
+
+}
+
+.buttonR {
+  background-color: #dbe2ef;
+  color: #112d4e;
+  font-size: 100px;
+  position: relative;
+  bottom: 340px;
+  box-shadow: 1px 8px 3px #666666;
+}
+
+.buttonL {
+  background-color: #dbe2ef;
+  color: #112d4e;
+  font-size: 100px;
+  position: relative;
+  bottom: 340px;
+  box-shadow: 8px 1px 3px #666666;
+  margin-right: 10px;
+}
+
+.resources {
+  text-align: left;
+  width: 50%;
+  margin-left: 33.3%;
+}
+
+.studypics {
+  border: 1px solid;
+  width: 150px;
+
+}
+
+/********************** My To Do Page CSS **********************/
+
+.todobtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 1px 6px 3px #666666;
+  -moz-box-shadow: 1px 6px 3px #666666;
+  box-shadow: 1px 6px 3px #666666;
+  font-family: Arial;
+  color: #112d4e;
+  font-size: 29px;
+  background: #dbe2ef;
+  padding: 9px 18px 9px 19px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.todobtn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #112d4e;
+  color: #dbe2ef;
+}
+
+#container-todo {
+  border: solid 1px;
+  width: 57%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 90px;
+  box-shadow: 1px 2px;
+}
+
+/** element + element **/
+input:checked+label {
+  text-decoration: line-through;
+}
+
+.strike2 {
+  margin: 10px;
+  visibility: hidden;
+}
+
+/********************** My BrainStorm Page CSS **********************/
+
+.Brainstorm {
+  align-items: center;
+}
+
+#Brainstorm {
+  overflow: scroll;
+}
+
+
+
+/********************** My Pomodoro Page CSS **********************/
+
+.pomo {
+  border: 1px solid;
+  border-collapse: collapse;
+  align-items: center;
+}
+
+.pomo2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid;
+  border-collapse: collapse;
+  align-items: right;
+  border: solid 1px;
+  margin-left: 90px;
+  box-shadow: 1px 2px;
+
+}
+
+.pomo3 {
+  padding-left: 60px;
+  border: 1px solid;
+  border-collapse: collapse;
+  align-items: right;
+  border: solid 1px;
+  width: 57%;
+  margin-left: 90px;
+  box-shadow: 1px 2px;
+  font-size: 18px;
+}
+
+.table {
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid;
+  border-collapse: collapse;
+  align-items: right;
+}
+
+.pomobanner {
+  text-align: center;
+}
+
+#start {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 1px 6px 3px #666666;
+  -moz-box-shadow: 1px 6px 3px #666666;
+  box-shadow: 1px 6px 3px #666666;
+  font-family: Arial;
+  color: #112d4e;
+  font-size: 15px;
+  background: #dbe2ef;
+  padding: 9px 18px 9px 19px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#reset {
+  margin-left: 5px;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 1px 6px 3px #666666;
+  -moz-box-shadow: 1px 6px 3px #666666;
+  box-shadow: 1px 6px 3px #666666;
+  font-family: Arial;
+  color: #112d4e;
+  font-size: 15px;
+  background: #dbe2ef;
+  padding: 9px 18px 9px 19px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#break {
+  margin-left: 5px;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 1px 6px 3px #666666;
+  -moz-box-shadow: 1px 6px 3px #666666;
+  box-shadow: 1px 6px 3px #666666;
+  font-family: Arial;
+  color: #112d4e;
+  font-size: 15px;
+  background: #dbe2ef;
+  padding: 9px 18px 9px 19px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#workMin {
+  display: inline;
+  padding-left: 3px;
+}
+
+#restMin {
+  display: inline;
+  padding-left: 3px;
+}
+
+#counter {
+  display: inline;
+}
